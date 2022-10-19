@@ -1,8 +1,7 @@
 var jimp = require('jimp');
 const crypto = require('crypto');
 
-console.log('***********Creado por Jose Zacarias***********')
-let texto = "Una mañana linda";
+let texto = "Texto cualquieraa";
 var id = crypto.randomBytes(15).toString('hex');
 const regxs = {
   "lower": /^[a-z0-9 ]+$/,
